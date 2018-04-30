@@ -1,3 +1,5 @@
+setTimeout(start, 1000)
+function start () {
 var remove = document.querySelectorAll("[data-event-action=delete]")
 for (var i = 0; remove.length > i; i++){
 remove[i].click()
@@ -9,5 +11,6 @@ function del (){
 if (x < yes.length) {
 yes[x].click()
 x++;
+}
 }
 }
